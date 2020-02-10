@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
     let url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=0122c51fc870469aae09df2824e5dfc2";
     
