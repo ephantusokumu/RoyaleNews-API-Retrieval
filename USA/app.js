@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-    let url = "http://newsapi.org/v2/top-headlines?sources=google-news&apiKey=0122c51fc870469aae09df2824e5dfc2";
+    let url = "http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=0122c51fc870469aae09df2824e5dfc2";
     
     $.ajax({
         url:url,
